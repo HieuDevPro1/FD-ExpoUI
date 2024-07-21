@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "FoodApp",
+    "slug": "food-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/delivery-man.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.hieu.nt.foodapp"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "d5f016ff-d6e1-4fdd-9833-984489293977"
+      }
+    }
+  }
+}
